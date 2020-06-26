@@ -1,0 +1,35 @@
+.main{
+    border: 2px solid grey ;
+    border-radius: 10px;
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    
+}
+.result{
+    width: 97%;
+    background-color: rgb(211, 201, 201);
+    height: 30px;
+    margin-top: 7px;
+    font-size: 20px;
+
+}
+.clearbtn{
+    width: 97%;
+    background-color: rgb(240, 240, 240);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+    margin-left: 5px;
+}
+.btn{
+    background-color: rgb(240, 240, 240);
+    width: 65px;
+    margin: 3px;
+    height: 25px;
+}
+h1{
+    text-align: center;
+    margin-top: 15%;
+    text-decoration: underline solid grey;
+}
