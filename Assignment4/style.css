@@ -1,0 +1,81 @@
+.met>h2{
+    display: inline-block;
+    color: black;
+    width: 70px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+h1{
+    color: white ;
+}
+body{
+    background-color:rgb(158, 56, 56);
+    text-align: center;
+}
+.met>p{
+    display: inline;
+    color: white;
+    font-size: 36px;
+}
+.name>h2{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.name>p{
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+.button{
+    display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition-duration: 0.4s;
+  border : none;
+  border-radius: 15px;
+  box-shadow: 0 10px #999;
+  cursor: pointer;
+  color: black;
+  margin: 10px;
+}
+.button:hover {background-color: #4CAF50;
+    color: white;}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(8px);
+}
+.area{
+    position: absolute;
+    top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: #66ff99;
+  font-size: 40px;
+  text-align: center;
+  background-color: #121212;
+  border-radius: 35px;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+}
