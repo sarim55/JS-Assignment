@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#todo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    background-color: rgba(13, 14, 0, 0.39);
+    color: white;
+    height: 500px;
+    border-radius: 10%;
+    overflow-x: auto;
+    overflow-y : auto;
+}
+#top{
+    margin-top: 10px;
+}
+#todoItems{
+    color: rgb(222, 154, 231);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+}
+#list{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
